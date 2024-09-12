@@ -1,0 +1,44 @@
+.hero {
+    background-image: url('sua-imagem-aqui.jpg');
+    /* Coloque a URL da imagem */
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    position: relative;
+    color: white;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel-img {
+    height: 500px; /* Defina a altura padrão desejada */
+    object-fit: cover; /* Faz com que a imagem preencha o espaço e mantenha a proporção */
+}
+
+.custom-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza horizontal e verticalmente */
+    text-align: center;
+    color: white; /* Ajuste a cor do texto */
+}
+
+.carousel-caption h1, 
+.carousel-caption p {
+    background: rgba(0, 0, 0, 0.2); /* Fundo semi-transparente para melhor contraste do texto */
+    padding: 5px;
+    border-radius: 20px;
+}
