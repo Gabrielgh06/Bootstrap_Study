@@ -1,20 +1,4 @@
-.hero {
-    background-image: url('sua-imagem-aqui.jpg');
-    /* Coloque a URL da imagem */
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
-    position: relative;
-    color: white;
-}
 
-.hero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
 
 .footer {
     background-color: #f8f9fa;
