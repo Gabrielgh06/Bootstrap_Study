@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <title>Formulários</title>
+</head>
+
+<body>
+    <div class="container p-5">
+        <form >
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-control form-control-plaintext" placeholder="Digite seu email">
+                <div class="form-text">Nunca compartilharemos seu email com terceiros</div>
+            </div>
+            <div class="mb-3">
+                <label for="senha" class="form-label" >Senha</label>
+                <input type="text" id="senha" disabled class="form-control form-control-sm">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" id="lembrar" class="form-check-input">
+                <label for="lembrar" class="form-check-label">Lembrar de mim</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+        </form>
+        <hr>
+        <input type="file" id="arquivo" class="form-control">
+        <input type="color" id="cor" class="form-control">
+        <hr>
+        <div class="mb-3">
+            <label class="form-label">Cidade</label>
+            <input type="text" class="form-control" list="cidades" placeholder="digite para buscar...">
+            <datalist id="cidades">
+                <option value="cidade 1"></option>
+                <option value="cidade 2"></option>
+                <option value="cidade 3"></option>
+                <option value="cidade 4"></option>
+                <option value="cidade 5"></option>
+                <option value="cidade 6"></option>
+            </datalist>
+        </div>
+    </div>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
