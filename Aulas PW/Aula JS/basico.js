@@ -1,4 +1,3 @@
-/*
 var nome = "Gabriel Henrique";
 var nome = "Priscila Santanna";
 
@@ -21,11 +20,7 @@ if (a === 10){
 }
 
 //Quando constantes são nomeadas, sempre serão com caracteres MAIÚSCULOS, e separados com underscore (upper snake case) NOME_DA_CONSTANTE
-
 const PI = 3.1415;
-
-//PI = 14.16
-
 console.log(PI);
 
 console.log(typeof nome);
@@ -34,11 +29,11 @@ console.log(typeof nome);
 //Array
 let frutas = ["banana", "maçã", "uva", "morango", 6];
 
-// console.log(frutas[0])
-// console.log(frutas.length)
-// for (let i =0; i < frutas.length; i++){
-//     console.log(frutas[i])
-// }
+console.log(frutas[0])
+console.log(frutas.length)
+for (let i =0; i < frutas.length; i++){
+    console.log(frutas[i])
+}
 
 let aluno = [
     {
@@ -77,19 +72,19 @@ let pessoa = {
 console.log("For each ou for in")
 for (let a in aluno) {
     console.log(aluno[a])
-}
+};
 
 //for of
 console.log("For of")
 for (let a of aluno) {
     console.log(a)
-}
-
+};
+/*
 //Foreach puro
 console.log("Foreach")
 aluno.materias.array.forEach(elemento => {
     console.log(elemento)
-})
+});
 */
 
 //----------Json----------Json----------Json----------Json----------Json----------Json----------Json----------Json
@@ -106,7 +101,7 @@ let exemploJson = {
 }
 
 console.log(typeof Objeto)
-console.log(typeof exemploJson)
+console.log(exemploJson)
 
 //Funções
 //Função sem retorno = void = procedimento
